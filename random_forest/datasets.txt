@@ -1,0 +1,393 @@
+Dataset: CountyInfo (69 tables)
+  - 000_Block_Population_info
+  - 001_broadband_population_test
+  - 001_highspeed_broadband_rate
+  - 001_highspeed_demo_table
+  - 002_broadband_population_test
+  - 002_normspeed_broadband_rate
+  - 002_normspeed_demo_table
+  - 00_BlockCode_num_in_BlockGroup
+  - 11_Actual_Highspeed_broadband_demo_table
+  - 11_Pop_highspeed-actual_broadband_rate
+  - 11_Raw_BG_highspeed_population
+  - 11_highspeed_broadband_percentage
+  - 12_Actual_Normspeed_broadband_demo_table
+  - 12_Pop_normspeed_actual_broadband_rate
+  - 12_Raw_BG_normspeed_population
+  - 12_normspeed_broadband_percentage
+  - 2021_broadband_deployment_rate
+  - 21_Actual_Highspeed_broadband_demo_table
+  - 21_Pop_highspeed_actual_broadband_rate
+  - 21_Raw_BG_highspeed_population
+  - 21_highspeed_broadband_percentage
+  - 22_Actual_normspeed_broadband_demo_table
+  - 22_Pop_normspeed_actual_broadband_rate
+  - 22_Raw_BG_normspeed_population
+  - 22_normspeed_broadband_percentage
+  - Actual_Highspeed_broadband_demo_table
+  - Actual_Norm_broadband_demo_table
+  - All_countycode_except_Alaska_and_Hawaii
+  - Blockgroup_broadband_norm_percentage
+  - Blockgroup_broadband_percentage
+  - Broadband_block_list
+  - Broadband_data_adding_1
+  - Broadband_data_adding_2
+  - Combined_broadband_deployment_rate_and_demographic_info
+  - Countycode_no_info_in_Demographic
+  - Demo_adding_info
+  - Demo_baseline
+  - Demo_indeed_use
+  - Density_Demographic_broadbnd_deployment_rate
+  - Density_demographic_data
+  - Highspeed_broadband_demo_table
+  - Missing_countycode_and_name
+  - Norm_broadband_demo_table
+  - Pop_broadband_rate2
+  - Pop_highspeed_actual_broadband_rate
+  - Pop_norm_actual_broadband_rate
+  - Pop_sup_broadband_rate
+  - Ratio_demographic_data
+  - Raw_BG_highspeed_population
+  - Raw_BG_norm_actual_population
+  - Raw_BG_population
+  - Raw_BG_population2
+  - Total_county_block_num
+  - county_2015
+  - county_2016
+  - county_2017
+  - county_2018
+  - county_2019
+  - county_2019_having_statecode
+  - county_2020
+  - county_2020_having_statecode
+  - county_2021
+  - county_2021_having_statecode
+  - county_all_blocks
+  - provider_num
+  - shengyuan
+  - sitong4
+  - yifan
+  - yihan
+
+Dataset: StateInfo (4 tables)
+  - Cable_Deployment_Change
+  - DSL_Deployment_Change
+  - Fiber_Deployment_Change
+  - StateCode
+
+Dataset: bdc (4 tables)
+  - AL
+  - MD
+  - ND
+  - NE
+
+Dataset: bsl_fabric (3 tables)
+  - v5
+  - v6
+  - v7
+
+Dataset: capstone (42 tables)
+  - 2020_blockgroup_demographic_str
+  - High_Cost__Connect_America_Fund_Broadband_Map__CAF_Map_str
+  - HouseUnits_Voting_BG_2
+  - HouseUnits_Voting_BlockGroup
+  - Weather_3factors
+  - avg_temp
+  - blockgroup_2020
+  - blockgroup_2020_1120
+  - blockgroup_2020_low
+  - blockgroup_2020_normal
+  - broadband_df
+  - broadband_df_kq
+  - broadband_test
+  - broadband_train
+  - broadband_undersample
+  - demo_table_sample
+  - elevation_stats
+  - elevation_stats_deduped
+  - fbd_us_without_satellite_jun2020_v1_str
+  - fcc_477_all_years
+  - fcc_477_all_years_max_speed_funded
+  - fcc_477_all_years_max_speed_only
+  - final_table_blocks
+  - form477_attr_all_years
+  - geo_table_sample
+  - geo_table_sample_20
+  - geo_table_sample_50
+  - historical_annual_precip
+  - names_matched
+  - snow_residence_time
+  - usac_2019_joined_f477_jun2020
+  - usac_2019_joined_f477_jun2020_demo_geo
+  - usac_2019_joined_f477_jun2020_demo_geo_2019_shp
+  - usac_2019_joined_f477_jun2020_demographics
+  - usac_2019_joined_f477_jun2020_demographics_deduped
+  - usac_2019_joined_f477_jun2020_demographics_filtered
+  - usac_2019_joined_f477_jun2020_demographics_filtered_deduped
+  - usac_2019_joined_f477_jun2020_extended
+  - usac_2019_joined_f477_jun2020_geo
+  - usac_funding_types
+  - usac_joined_f477_state
+  - weather_stats_2019
+
+Dataset: census_acs (6 tables)
+  - tract_2014_5yr
+  - tract_2015_5yr
+  - tract_2016_5yr
+  - tract_2017_5yr
+  - tract_2018_5yr
+  - tract_2019_5yr
+
+Dataset: census_data (43 tables)
+  - 2020_blockgroup_demographic
+  - Cleaned_geographic_raw_data
+  - Cleaned_sum_demographic_data
+  - DP05_tractdemographics
+  - Gaz_tracts_national
+  - acs5yr2019_blockgroup_data
+  - address_count_allstates
+  - address_count_allstates_categories
+  - all_block_codes_2010
+  - county_level_pop_density
+  - county_level_rural_area
+  - county_level_rural_area_density
+  - county_migration
+  - education_blockgroup_2019acs5yrs
+  - education_blockgroup_2020acs5yrs
+  - employment_blockgroup_2019acs5yrs
+  - employment_blockgroup_2020acs5yrs
+  - houseowner_blockgroup_2019acs5yrs
+  - houseowner_blockgroup_2020acs5yrs
+  - housing_blockgroup_2019acs5yrs
+  - housing_blockgroup_2020acs5yrs
+  - income_blockgroup_2019acs5yrs
+  - income_blockgroup_2020acs5yrs
+  - median_household_income_2019
+  - metromobility_blockgroup_2019acs5yrs
+  - metromobility_blockgroup_2020acs5yrs
+  - micromobility_blockgroup_2019acs5yrs
+  - micromobility_blockgroup_2020acs5yrs
+  - othermobility_blockgroup_2019acs5yrs
+  - othermobility_blockgroup_2020acs5yrs
+  - pct_household_with_broadband_subs
+  - race_blockgroup_2019acs5yrs
+  - race_blockgroup_2020acs5yrs
+  - road_length_2020
+  - ruca
+  - ruca_2010_revised
+  - ruca_original
+  - sex_blockgroup_2019acs5yrs
+  - sex_blockgroup_2020acs5yrs
+  - techcode_jun2019
+  - techcode_jun2020
+  - us2020_block_pop
+  - voting_blockgroup_2019
+
+Dataset: combined_data (10 tables)
+  - deployments_2015_jan_jun_and_fcc477_jun2015_6mobefore_6moafter_unique_name_matches_and_method
+  - fcc477_2018_grouped_ruca_demographic_byblock_with_social_variables
+  - fcc477_ruca_demographic_2018_groupedbyblock
+  - fcc_form477_residential_fixed_connections_10x1_2015_2018_updated
+  - form477_jun2020_ruca_blockpop
+  - form477_jun2020_with_acs5yr2019
+  - new_blocks_fcc_2016-2017
+  - new_blocks_fcc_201617-2018
+  - new_blocks_fcc_20161718-2019
+  - new_blocks_fcc_2016171819-2020
+
+Dataset: company_classification (24 tables)
+  - by_pop_dec2015
+  - by_pop_dec2016
+  - by_pop_dec2017
+  - by_pop_dec2018
+  - by_pop_dec2019
+  - by_pop_jun2015
+  - by_pop_jun2016
+  - by_pop_jun2017
+  - by_pop_jun2018
+  - by_pop_jun2019
+  - by_pop_jun2020
+  - by_tech_dec2015
+  - by_tech_dec2016
+  - by_tech_dec2017
+  - by_tech_dec2018
+  - by_tech_dec2019
+  - by_tech_jun2015
+  - by_tech_jun2016
+  - by_tech_jun2017
+  - by_tech_jun2018
+  - by_tech_jun2019
+  - by_tech_jun2020
+  - companylist_evolution
+  - companylist_jun2015
+
+Dataset: company_disappearance (2 tables)
+  - companies_in_blocks_with_disappearance
+  - company_disappearance_jun2015
+
+Dataset: fabric (6 tables)
+  - AK
+  - LAv4
+  - MD
+  - ND
+  - NE
+  - NJ
+
+Dataset: fcc_block_level_pop (3 tables)
+  - us2019
+  - us2019_original
+  - us2020
+
+Dataset: fcc_form477_Residential_Fixed_Connections_2015_2018 (8 tables)
+  - tract_map_dec_2015
+  - tract_map_dec_2016
+  - tract_map_dec_2017
+  - tract_map_dec_2018
+  - tract_map_jun_2015
+  - tract_map_jun_2016
+  - tract_map_jun_2017
+  - tract_map_jun_2018
+
+Dataset: fcc_form_477 (18 tables)
+  - StateAbbr
+  - State_Block_Counts_2010_2020
+  - State_Block_Counts_including_Abbr
+  - fbd_us_without_satellite_dec2015_v4
+  - fbd_us_without_satellite_dec2016_v2
+  - fbd_us_without_satellite_dec2017_v3
+  - fbd_us_without_satellite_dec2018_v3
+  - fbd_us_without_satellite_dec2019_v1
+  - fbd_us_without_satellite_jun2015_v5
+  - fbd_us_without_satellite_jun2016_v4
+  - fbd_us_without_satellite_jun2017_v3
+  - fbd_us_without_satellite_jun2018_v1
+  - fbd_us_without_satellite_jun2019_v2
+  - fbd_us_without_satellite_jun2020_v1
+  - fbd_us_without_satellite_jun2021_v1
+  - fixed_connections_by_census_tract
+  - ordered_logrecno_fbd_us_without_satellite_dec2017_v3
+  - ruca_techcode_pop
+
+Dataset: fcc_form_477_original (21 tables)
+  - fbd_us_without_satellite_dec2015_v4
+  - fbd_us_without_satellite_dec2016_v2
+  - fbd_us_without_satellite_dec2017_v3
+  - fbd_us_without_satellite_dec2018_v3
+  - fbd_us_without_satellite_dec2019_v1
+  - fbd_us_without_satellite_jun2015_v5
+  - fbd_us_without_satellite_jun2016_v4
+  - fbd_us_without_satellite_jun2017_v3
+  - fbd_us_without_satellite_jun2018_v1
+  - fbd_us_without_satellite_jun2019_v2
+  - fbd_us_without_satellite_jun2020_v1
+  - test_df16_att_1
+  - test_df16_att_2
+  - test_df16_att_4
+  - test_df16_att_5
+  - test_df_att_3
+  - test_for_df16_1
+  - test_for_df16_2
+  - test_for_df16_3
+  - test_for_df16_4
+  - test_for_df16_5
+
+Dataset: fcc_nbm (2 tables)
+  - nbm_hive
+  - provider_list
+
+Dataset: final_proposal (9 tables)
+  - location_clean
+  - no_bead_clean
+  - pl_county
+  - pl_county_frn
+  - proj_loc_county_frn
+  - project_clean
+  - sat_mdu
+  - subgrantee_clean
+  - subgrantee_clean_prov
+
+Dataset: form_477_filers_by_state (9 tables)
+  - form_477_filers_by_state_dec2015
+  - form_477_filers_by_state_dec2016
+  - form_477_filers_by_state_dec2017
+  - form_477_filers_by_state_dec2018
+  - form_477_filers_by_state_jun2015
+  - form_477_filers_by_state_jun2016
+  - form_477_filers_by_state_jun2017
+  - form_477_filers_by_state_jun2018
+  - form_477_filers_by_state_jun2019
+
+Dataset: fp_approved (5 tables)
+  - deployment_projects
+  - locations
+  - no_bead
+  - subgrantees
+  - subgrantees_prov
+
+Dataset: high_cost (1 tables)
+  - census_block
+
+Dataset: mba_data (25 tables)
+  - curr_dns
+  - curr_httpget
+  - curr_httpgetmt
+  - curr_httpgetmt-21
+  - curr_httpgetmt6
+  - curr_httpgetmtApr21
+  - curr_httpgetmtDec20
+  - curr_httpgetmtJun21
+  - curr_httppost
+  - curr_httppostmt
+  - curr_httppostmt6
+  - curr_ping
+  - curr_ping6
+  - curr_udpcloss
+  - curr_udpcloss-21
+  - curr_udpclossRawApr2021
+  - curr_udpclossRawDec2020
+  - curr_udpclossRawJun2021
+  - curr_udpjitter
+  - curr_udplatency
+  - curr_udplatency6
+  - curr_webget
+  - geocoded-units-sept2020
+  - unit-profile-sept2020
+  - unit-profile-sept2021
+
+Dataset: sri_summer (14 tables)
+  - Alaska_UnlicensedFixedWireless
+  - Maine_UnlicensedFixedWireless
+  - Mississippi_UnlicensedFixedWireless
+  - acs_5yr_2020
+  - acs_5yr_2020_copy
+  - acs_hus
+  - acs_try
+  - idaho_licensed_wireless
+  - montana_licensed_wireless
+  - pusa
+  - pusb
+  - pusc
+  - pusd
+  - rhode_island_licensed_wireless
+
+Dataset: usac_high_cost (14 tables)
+  - Block_Group_Code_2015_2021
+  - Block_Year_Fund_Num
+  - Block_county_state_fund_num
+  - Broadband_block_county_state_num
+  - Broadband_block_year_fund
+  - Fund_Binary
+  - Fund_Block_Group_Binarys
+  - Fund_Block_Group_Num
+  - Fund_Num
+  - High_Cost_Disbursements_2022v
+  - High_Cost__Connect_America_Fund_Broadband_Map__CAF_Map_2022v
+  - High_Cost_add_download_upload
+  - LocalData_2022v
+  - StateData_2022v
+
+Dataset: weather_land_data (4 tables)
+  - landcover_proportions_2001_2006_2011
+  - landform_byblock_conus
+  - precipitation_annual_1994to2014
+  - temperature_monthly_2002_06_10_14
